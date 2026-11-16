@@ -22,13 +22,17 @@
 
 # misc
 .DS_Store
+Thumbs.db
+desktop.ini
 *.pem
 
 # debug
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+.eslintcache
 
 # env files (can opt-in for committing if needed)
 .env*
@@ -39,3 +43,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+DEMO_ACCOUNTS.md
+
+# local editor settings
+.vscode/*
+!.vscode/settings.json
+.idea/
