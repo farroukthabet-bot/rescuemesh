@@ -49,3 +49,5 @@ DEMO_ACCOUNTS.md
 .vscode/*
 !.vscode/settings.json
 .idea/
+
+/*.ps1
